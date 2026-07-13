@@ -1,13 +1,12 @@
-# Ender Pearl Stasis CC 🔮
+# Ender Pearl Stasis CC
 
-Welcome to the future of instantaneous travel! The **Ender Pearl Stasis CC** project is a next-level, fully automated teleportation hub for ComputerCraft. Connect your bases, outposts, and emergency escape routes with this ultra-cool, incredibly fast transport network.
+A centralized management hub and remote triggering framework for Ender Pearl Stasis chambers utilizing ComputerCraft. This system enables instantaneous, synchronized teleportation across distributed network nodes. It features a scalable architecture designed to manage multiple stasis endpoints from a unified control interface, providing seamless logistical transport across vast distances.
 
-## Features ✨
-* **Instant Travel:** Seamlessly trigger Ender Pearl stasis chambers across long distances.
-* **Centralized Hub:** Manage multiple stasis chambers from a single, high-tech control center.
+## Technical Specifications
+* **Synchronized Triggering:** Guarantees precise execution of stasis chamber releases.
+* **Centralized Hub Architecture:** Facilitates the management and monitoring of distributed teleportation nodes from a single interface.
 
-## Security & Setup 🔒
-Teleporting is great, but accidentally teleporting your enemies into your vault is not. This system is designed with secure triggers, but you need to configure it correctly.
+## Security Advisories & Configuration
+The remote triggering mechanisms and hub-to-node communications listen on default ports out-of-the-box.
 
-**WARNING: Always change the default communication ports to your own private channels before going live!**
-If you leave the default ports open, anyone on the server could intercept your network and remotely trigger your stasis pearls at the worst possible time. Secure your network by changing the port numbers, and enjoy safe, instant travel!
+**Configuration Requirement:** Deploying this system without altering the communication ports leaves the stasis chambers highly vulnerable to unauthorized activation by third parties. It is strongly recommended to assign secure, undisclosed channels for all network traffic to prevent unauthorized access and inadvertent deployment of teleportation assets.
